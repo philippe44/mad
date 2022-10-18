@@ -51,6 +51,7 @@ build/
 *.log
 auto*/
 *~
+*.user
 
 # autotools
 missing
