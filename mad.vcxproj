@@ -59,6 +59,7 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <LanguageStandard_C Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">stdc11</LanguageStandard_C>
       <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">msvc++;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DebugInformationFormat Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">OldStyle</DebugInformationFormat>
     </ClCompile>
     <Link>
       <SubSystem>
